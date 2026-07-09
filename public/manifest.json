@@ -1,0 +1,56 @@
+{
+  "name": "ESHPETCO HSE Management System",
+  "short_name": "ESHPETCO HSE",
+  "description": "Enterprise-grade Health, Safety & Environment Management System for Oil & Gas field operations",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#005B96",
+  "background_color": "#F5F7FA",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "shortcuts": [
+    {
+      "name": "New PTW",
+      "short_name": "PTW",
+      "description": "Create a new Permit to Work",
+      "url": "/ptw/new",
+      "icons": [{"src": "/icon-96.png", "sizes": "96x96"}]
+    },
+    {
+      "name": "Report Incident",
+      "short_name": "Incident",
+      "description": "Report a new incident",
+      "url": "/incidents/new",
+      "icons": [{"src": "/icon-96.png", "sizes": "96x96"}]
+    }
+  ]
+}
